@@ -3,9 +3,9 @@
 namespace Core_ModelValidation.Models
 {
 
-    public abstract class BaseModel { }
+    
 
-    public class Employee : BaseModel
+    public class Employee  
     {
         public int EmpNo { get; set; }
         public string? EmpName { get; set; }
